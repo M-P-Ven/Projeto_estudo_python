@@ -1,0 +1,3038 @@
+{
+    "bulbasaur": [
+        {
+            "numero_dex": 1,
+            "nome": "bulbasaur",
+            "altura": 7,
+            "peso": 69,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "ivysaur": [
+        {
+            "numero_dex": 2,
+            "nome": "ivysaur",
+            "altura": 10,
+            "peso": 130,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "venusaur": [
+        {
+            "numero_dex": 3,
+            "nome": "venusaur",
+            "altura": 20,
+            "peso": 1000,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "charmander": [
+        {
+            "numero_dex": 4,
+            "nome": "charmander",
+            "altura": 6,
+            "peso": 85,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fire",
+                        "url": "https://pokeapi.co/api/v2/type/10/"
+                    }
+                }
+            ]
+        }
+    ],
+    "charmeleon": [
+        {
+            "numero_dex": 5,
+            "nome": "charmeleon",
+            "altura": 11,
+            "peso": 190,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fire",
+                        "url": "https://pokeapi.co/api/v2/type/10/"
+                    }
+                }
+            ]
+        }
+    ],
+    "charizard": [
+        {
+            "numero_dex": 6,
+            "nome": "charizard",
+            "altura": 17,
+            "peso": 905,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fire",
+                        "url": "https://pokeapi.co/api/v2/type/10/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "squirtle": [
+        {
+            "numero_dex": 7,
+            "nome": "squirtle",
+            "altura": 5,
+            "peso": 90,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "wartortle": [
+        {
+            "numero_dex": 8,
+            "nome": "wartortle",
+            "altura": 10,
+            "peso": 225,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "blastoise": [
+        {
+            "numero_dex": 9,
+            "nome": "blastoise",
+            "altura": 16,
+            "peso": 855,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "caterpie": [
+        {
+            "numero_dex": 10,
+            "nome": "caterpie",
+            "altura": 3,
+            "peso": 29,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "bug",
+                        "url": "https://pokeapi.co/api/v2/type/7/"
+                    }
+                }
+            ]
+        }
+    ],
+    "metapod": [
+        {
+            "numero_dex": 11,
+            "nome": "metapod",
+            "altura": 7,
+            "peso": 99,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "bug",
+                        "url": "https://pokeapi.co/api/v2/type/7/"
+                    }
+                }
+            ]
+        }
+    ],
+    "butterfree": [
+        {
+            "numero_dex": 12,
+            "nome": "butterfree",
+            "altura": 11,
+            "peso": 320,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "bug",
+                        "url": "https://pokeapi.co/api/v2/type/7/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "weedle": [
+        {
+            "numero_dex": 13,
+            "nome": "weedle",
+            "altura": 3,
+            "peso": 32,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "bug",
+                        "url": "https://pokeapi.co/api/v2/type/7/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "kakuna": [
+        {
+            "numero_dex": 14,
+            "nome": "kakuna",
+            "altura": 6,
+            "peso": 100,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "bug",
+                        "url": "https://pokeapi.co/api/v2/type/7/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "beedrill": [
+        {
+            "numero_dex": 15,
+            "nome": "beedrill",
+            "altura": 10,
+            "peso": 295,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "bug",
+                        "url": "https://pokeapi.co/api/v2/type/7/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "pidgey": [
+        {
+            "numero_dex": 16,
+            "nome": "pidgey",
+            "altura": 3,
+            "peso": 18,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "pidgeotto": [
+        {
+            "numero_dex": 17,
+            "nome": "pidgeotto",
+            "altura": 11,
+            "peso": 300,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "pidgeot": [
+        {
+            "numero_dex": 18,
+            "nome": "pidgeot",
+            "altura": 15,
+            "peso": 395,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "rattata": [
+        {
+            "numero_dex": 19,
+            "nome": "rattata",
+            "altura": 3,
+            "peso": 35,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                }
+            ]
+        }
+    ],
+    "raticate": [
+        {
+            "numero_dex": 20,
+            "nome": "raticate",
+            "altura": 7,
+            "peso": 185,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                }
+            ]
+        }
+    ],
+    "spearow": [
+        {
+            "numero_dex": 21,
+            "nome": "spearow",
+            "altura": 3,
+            "peso": 20,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "fearow": [
+        {
+            "numero_dex": 22,
+            "nome": "fearow",
+            "altura": 12,
+            "peso": 380,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "ekans": [
+        {
+            "numero_dex": 23,
+            "nome": "ekans",
+            "altura": 20,
+            "peso": 69,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "arbok": [
+        {
+            "numero_dex": 24,
+            "nome": "arbok",
+            "altura": 35,
+            "peso": 650,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "pikachu": [
+        {
+            "numero_dex": 25,
+            "nome": "pikachu",
+            "altura": 4,
+            "peso": 60,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "electric",
+                        "url": "https://pokeapi.co/api/v2/type/13/"
+                    }
+                }
+            ]
+        }
+    ],
+    "raichu": [
+        {
+            "numero_dex": 26,
+            "nome": "raichu",
+            "altura": 8,
+            "peso": 300,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "electric",
+                        "url": "https://pokeapi.co/api/v2/type/13/"
+                    }
+                }
+            ]
+        }
+    ],
+    "sandshrew": [
+        {
+            "numero_dex": 27,
+            "nome": "sandshrew",
+            "altura": 6,
+            "peso": 120,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                }
+            ]
+        }
+    ],
+    "sandslash": [
+        {
+            "numero_dex": 28,
+            "nome": "sandslash",
+            "altura": 10,
+            "peso": 295,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                }
+            ]
+        }
+    ],
+    "nidoran-f": [
+        {
+            "numero_dex": 29,
+            "nome": "nidoran-f",
+            "altura": 4,
+            "peso": 70,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "nidorina": [
+        {
+            "numero_dex": 30,
+            "nome": "nidorina",
+            "altura": 8,
+            "peso": 200,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "nidoqueen": [
+        {
+            "numero_dex": 31,
+            "nome": "nidoqueen",
+            "altura": 13,
+            "peso": 600,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                }
+            ]
+        }
+    ],
+    "nidoran-m": [
+        {
+            "numero_dex": 32,
+            "nome": "nidoran-m",
+            "altura": 5,
+            "peso": 90,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "nidorino": [
+        {
+            "numero_dex": 33,
+            "nome": "nidorino",
+            "altura": 9,
+            "peso": 195,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "nidoking": [
+        {
+            "numero_dex": 34,
+            "nome": "nidoking",
+            "altura": 14,
+            "peso": 620,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                }
+            ]
+        }
+    ],
+    "clefairy": [
+        {
+            "numero_dex": 35,
+            "nome": "clefairy",
+            "altura": 6,
+            "peso": 75,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fairy",
+                        "url": "https://pokeapi.co/api/v2/type/18/"
+                    }
+                }
+            ]
+        }
+    ],
+    "clefable": [
+        {
+            "numero_dex": 36,
+            "nome": "clefable",
+            "altura": 13,
+            "peso": 400,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fairy",
+                        "url": "https://pokeapi.co/api/v2/type/18/"
+                    }
+                }
+            ]
+        }
+    ],
+    "vulpix": [
+        {
+            "numero_dex": 37,
+            "nome": "vulpix",
+            "altura": 6,
+            "peso": 99,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fire",
+                        "url": "https://pokeapi.co/api/v2/type/10/"
+                    }
+                }
+            ]
+        }
+    ],
+    "ninetales": [
+        {
+            "numero_dex": 38,
+            "nome": "ninetales",
+            "altura": 11,
+            "peso": 199,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fire",
+                        "url": "https://pokeapi.co/api/v2/type/10/"
+                    }
+                }
+            ]
+        }
+    ],
+    "jigglypuff": [
+        {
+            "numero_dex": 39,
+            "nome": "jigglypuff",
+            "altura": 5,
+            "peso": 55,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "fairy",
+                        "url": "https://pokeapi.co/api/v2/type/18/"
+                    }
+                }
+            ]
+        }
+    ],
+    "wigglytuff": [
+        {
+            "numero_dex": 40,
+            "nome": "wigglytuff",
+            "altura": 10,
+            "peso": 120,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "fairy",
+                        "url": "https://pokeapi.co/api/v2/type/18/"
+                    }
+                }
+            ]
+        }
+    ],
+    "zubat": [
+        {
+            "numero_dex": 41,
+            "nome": "zubat",
+            "altura": 8,
+            "peso": 75,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "golbat": [
+        {
+            "numero_dex": 42,
+            "nome": "golbat",
+            "altura": 16,
+            "peso": 550,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "oddish": [
+        {
+            "numero_dex": 43,
+            "nome": "oddish",
+            "altura": 5,
+            "peso": 54,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "gloom": [
+        {
+            "numero_dex": 44,
+            "nome": "gloom",
+            "altura": 8,
+            "peso": 86,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "vileplume": [
+        {
+            "numero_dex": 45,
+            "nome": "vileplume",
+            "altura": 12,
+            "peso": 186,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "paras": [
+        {
+            "numero_dex": 46,
+            "nome": "paras",
+            "altura": 3,
+            "peso": 54,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "bug",
+                        "url": "https://pokeapi.co/api/v2/type/7/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                }
+            ]
+        }
+    ],
+    "parasect": [
+        {
+            "numero_dex": 47,
+            "nome": "parasect",
+            "altura": 10,
+            "peso": 295,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "bug",
+                        "url": "https://pokeapi.co/api/v2/type/7/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                }
+            ]
+        }
+    ],
+    "venonat": [
+        {
+            "numero_dex": 48,
+            "nome": "venonat",
+            "altura": 10,
+            "peso": 300,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "bug",
+                        "url": "https://pokeapi.co/api/v2/type/7/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "venomoth": [
+        {
+            "numero_dex": 49,
+            "nome": "venomoth",
+            "altura": 15,
+            "peso": 125,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "bug",
+                        "url": "https://pokeapi.co/api/v2/type/7/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "diglett": [
+        {
+            "numero_dex": 50,
+            "nome": "diglett",
+            "altura": 2,
+            "peso": 8,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                }
+            ]
+        }
+    ],
+    "dugtrio": [
+        {
+            "numero_dex": 51,
+            "nome": "dugtrio",
+            "altura": 7,
+            "peso": 333,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                }
+            ]
+        }
+    ],
+    "meowth": [
+        {
+            "numero_dex": 52,
+            "nome": "meowth",
+            "altura": 4,
+            "peso": 42,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                }
+            ]
+        }
+    ],
+    "persian": [
+        {
+            "numero_dex": 53,
+            "nome": "persian",
+            "altura": 10,
+            "peso": 320,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                }
+            ]
+        }
+    ],
+    "psyduck": [
+        {
+            "numero_dex": 54,
+            "nome": "psyduck",
+            "altura": 8,
+            "peso": 196,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "golduck": [
+        {
+            "numero_dex": 55,
+            "nome": "golduck",
+            "altura": 17,
+            "peso": 766,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "mankey": [
+        {
+            "numero_dex": 56,
+            "nome": "mankey",
+            "altura": 5,
+            "peso": 280,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fighting",
+                        "url": "https://pokeapi.co/api/v2/type/2/"
+                    }
+                }
+            ]
+        }
+    ],
+    "primeape": [
+        {
+            "numero_dex": 57,
+            "nome": "primeape",
+            "altura": 10,
+            "peso": 320,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fighting",
+                        "url": "https://pokeapi.co/api/v2/type/2/"
+                    }
+                }
+            ]
+        }
+    ],
+    "growlithe": [
+        {
+            "numero_dex": 58,
+            "nome": "growlithe",
+            "altura": 7,
+            "peso": 190,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fire",
+                        "url": "https://pokeapi.co/api/v2/type/10/"
+                    }
+                }
+            ]
+        }
+    ],
+    "arcanine": [
+        {
+            "numero_dex": 59,
+            "nome": "arcanine",
+            "altura": 19,
+            "peso": 1550,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fire",
+                        "url": "https://pokeapi.co/api/v2/type/10/"
+                    }
+                }
+            ]
+        }
+    ],
+    "poliwag": [
+        {
+            "numero_dex": 60,
+            "nome": "poliwag",
+            "altura": 6,
+            "peso": 124,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "poliwhirl": [
+        {
+            "numero_dex": 61,
+            "nome": "poliwhirl",
+            "altura": 10,
+            "peso": 200,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "poliwrath": [
+        {
+            "numero_dex": 62,
+            "nome": "poliwrath",
+            "altura": 13,
+            "peso": 540,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "fighting",
+                        "url": "https://pokeapi.co/api/v2/type/2/"
+                    }
+                }
+            ]
+        }
+    ],
+    "abra": [
+        {
+            "numero_dex": 63,
+            "nome": "abra",
+            "altura": 9,
+            "peso": 195,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ],
+    "kadabra": [
+        {
+            "numero_dex": 64,
+            "nome": "kadabra",
+            "altura": 13,
+            "peso": 565,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ],
+    "alakazam": [
+        {
+            "numero_dex": 65,
+            "nome": "alakazam",
+            "altura": 15,
+            "peso": 480,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ],
+    "machop": [
+        {
+            "numero_dex": 66,
+            "nome": "machop",
+            "altura": 8,
+            "peso": 195,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fighting",
+                        "url": "https://pokeapi.co/api/v2/type/2/"
+                    }
+                }
+            ]
+        }
+    ],
+    "machoke": [
+        {
+            "numero_dex": 67,
+            "nome": "machoke",
+            "altura": 15,
+            "peso": 705,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fighting",
+                        "url": "https://pokeapi.co/api/v2/type/2/"
+                    }
+                }
+            ]
+        }
+    ],
+    "machamp": [
+        {
+            "numero_dex": 68,
+            "nome": "machamp",
+            "altura": 16,
+            "peso": 1300,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fighting",
+                        "url": "https://pokeapi.co/api/v2/type/2/"
+                    }
+                }
+            ]
+        }
+    ],
+    "bellsprout": [
+        {
+            "numero_dex": 69,
+            "nome": "bellsprout",
+            "altura": 7,
+            "peso": 40,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "weepinbell": [
+        {
+            "numero_dex": 70,
+            "nome": "weepinbell",
+            "altura": 10,
+            "peso": 64,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "victreebel": [
+        {
+            "numero_dex": 71,
+            "nome": "victreebel",
+            "altura": 17,
+            "peso": 155,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "tentacool": [
+        {
+            "numero_dex": 72,
+            "nome": "tentacool",
+            "altura": 9,
+            "peso": 455,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "tentacruel": [
+        {
+            "numero_dex": 73,
+            "nome": "tentacruel",
+            "altura": 16,
+            "peso": 550,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "geodude": [
+        {
+            "numero_dex": 74,
+            "nome": "geodude",
+            "altura": 4,
+            "peso": 200,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "rock",
+                        "url": "https://pokeapi.co/api/v2/type/6/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                }
+            ]
+        }
+    ],
+    "graveler": [
+        {
+            "numero_dex": 75,
+            "nome": "graveler",
+            "altura": 10,
+            "peso": 1050,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "rock",
+                        "url": "https://pokeapi.co/api/v2/type/6/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                }
+            ]
+        }
+    ],
+    "golem": [
+        {
+            "numero_dex": 76,
+            "nome": "golem",
+            "altura": 14,
+            "peso": 3000,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "rock",
+                        "url": "https://pokeapi.co/api/v2/type/6/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                }
+            ]
+        }
+    ],
+    "ponyta": [
+        {
+            "numero_dex": 77,
+            "nome": "ponyta",
+            "altura": 10,
+            "peso": 300,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fire",
+                        "url": "https://pokeapi.co/api/v2/type/10/"
+                    }
+                }
+            ]
+        }
+    ],
+    "rapidash": [
+        {
+            "numero_dex": 78,
+            "nome": "rapidash",
+            "altura": 17,
+            "peso": 950,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fire",
+                        "url": "https://pokeapi.co/api/v2/type/10/"
+                    }
+                }
+            ]
+        }
+    ],
+    "slowpoke": [
+        {
+            "numero_dex": 79,
+            "nome": "slowpoke",
+            "altura": 12,
+            "peso": 360,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ],
+    "slowbro": [
+        {
+            "numero_dex": 80,
+            "nome": "slowbro",
+            "altura": 16,
+            "peso": 785,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ],
+    "magnemite": [
+        {
+            "numero_dex": 81,
+            "nome": "magnemite",
+            "altura": 3,
+            "peso": 60,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "electric",
+                        "url": "https://pokeapi.co/api/v2/type/13/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "steel",
+                        "url": "https://pokeapi.co/api/v2/type/9/"
+                    }
+                }
+            ]
+        }
+    ],
+    "magneton": [
+        {
+            "numero_dex": 82,
+            "nome": "magneton",
+            "altura": 10,
+            "peso": 600,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "electric",
+                        "url": "https://pokeapi.co/api/v2/type/13/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "steel",
+                        "url": "https://pokeapi.co/api/v2/type/9/"
+                    }
+                }
+            ]
+        }
+    ],
+    "farfetchd": [
+        {
+            "numero_dex": 83,
+            "nome": "farfetchd",
+            "altura": 8,
+            "peso": 150,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "doduo": [
+        {
+            "numero_dex": 84,
+            "nome": "doduo",
+            "altura": 14,
+            "peso": 392,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "dodrio": [
+        {
+            "numero_dex": 85,
+            "nome": "dodrio",
+            "altura": 18,
+            "peso": 852,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "seel": [
+        {
+            "numero_dex": 86,
+            "nome": "seel",
+            "altura": 11,
+            "peso": 900,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "dewgong": [
+        {
+            "numero_dex": 87,
+            "nome": "dewgong",
+            "altura": 17,
+            "peso": 1200,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "ice",
+                        "url": "https://pokeapi.co/api/v2/type/15/"
+                    }
+                }
+            ]
+        }
+    ],
+    "grimer": [
+        {
+            "numero_dex": 88,
+            "nome": "grimer",
+            "altura": 9,
+            "peso": 300,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "muk": [
+        {
+            "numero_dex": 89,
+            "nome": "muk",
+            "altura": 12,
+            "peso": 300,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "shellder": [
+        {
+            "numero_dex": 90,
+            "nome": "shellder",
+            "altura": 3,
+            "peso": 40,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "cloyster": [
+        {
+            "numero_dex": 91,
+            "nome": "cloyster",
+            "altura": 15,
+            "peso": 1325,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "ice",
+                        "url": "https://pokeapi.co/api/v2/type/15/"
+                    }
+                }
+            ]
+        }
+    ],
+    "gastly": [
+        {
+            "numero_dex": 92,
+            "nome": "gastly",
+            "altura": 13,
+            "peso": 1,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ghost",
+                        "url": "https://pokeapi.co/api/v2/type/8/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "haunter": [
+        {
+            "numero_dex": 93,
+            "nome": "haunter",
+            "altura": 16,
+            "peso": 1,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ghost",
+                        "url": "https://pokeapi.co/api/v2/type/8/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "gengar": [
+        {
+            "numero_dex": 94,
+            "nome": "gengar",
+            "altura": 15,
+            "peso": 405,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ghost",
+                        "url": "https://pokeapi.co/api/v2/type/8/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "onix": [
+        {
+            "numero_dex": 95,
+            "nome": "onix",
+            "altura": 88,
+            "peso": 2100,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "rock",
+                        "url": "https://pokeapi.co/api/v2/type/6/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                }
+            ]
+        }
+    ],
+    "drowzee": [
+        {
+            "numero_dex": 96,
+            "nome": "drowzee",
+            "altura": 10,
+            "peso": 324,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ],
+    "hypno": [
+        {
+            "numero_dex": 97,
+            "nome": "hypno",
+            "altura": 16,
+            "peso": 756,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ],
+    "krabby": [
+        {
+            "numero_dex": 98,
+            "nome": "krabby",
+            "altura": 4,
+            "peso": 65,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "kingler": [
+        {
+            "numero_dex": 99,
+            "nome": "kingler",
+            "altura": 13,
+            "peso": 600,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "voltorb": [
+        {
+            "numero_dex": 100,
+            "nome": "voltorb",
+            "altura": 5,
+            "peso": 104,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "electric",
+                        "url": "https://pokeapi.co/api/v2/type/13/"
+                    }
+                }
+            ]
+        }
+    ],
+    "electrode": [
+        {
+            "numero_dex": 101,
+            "nome": "electrode",
+            "altura": 12,
+            "peso": 666,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "electric",
+                        "url": "https://pokeapi.co/api/v2/type/13/"
+                    }
+                }
+            ]
+        }
+    ],
+    "exeggcute": [
+        {
+            "numero_dex": 102,
+            "nome": "exeggcute",
+            "altura": 4,
+            "peso": 25,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ],
+    "exeggutor": [
+        {
+            "numero_dex": 103,
+            "nome": "exeggutor",
+            "altura": 20,
+            "peso": 1200,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ],
+    "cubone": [
+        {
+            "numero_dex": 104,
+            "nome": "cubone",
+            "altura": 4,
+            "peso": 65,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                }
+            ]
+        }
+    ],
+    "marowak": [
+        {
+            "numero_dex": 105,
+            "nome": "marowak",
+            "altura": 10,
+            "peso": 450,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                }
+            ]
+        }
+    ],
+    "hitmonlee": [
+        {
+            "numero_dex": 106,
+            "nome": "hitmonlee",
+            "altura": 15,
+            "peso": 498,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fighting",
+                        "url": "https://pokeapi.co/api/v2/type/2/"
+                    }
+                }
+            ]
+        }
+    ],
+    "hitmonchan": [
+        {
+            "numero_dex": 107,
+            "nome": "hitmonchan",
+            "altura": 14,
+            "peso": 502,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fighting",
+                        "url": "https://pokeapi.co/api/v2/type/2/"
+                    }
+                }
+            ]
+        }
+    ],
+    "lickitung": [
+        {
+            "numero_dex": 108,
+            "nome": "lickitung",
+            "altura": 12,
+            "peso": 655,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                }
+            ]
+        }
+    ],
+    "koffing": [
+        {
+            "numero_dex": 109,
+            "nome": "koffing",
+            "altura": 6,
+            "peso": 10,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "weezing": [
+        {
+            "numero_dex": 110,
+            "nome": "weezing",
+            "altura": 12,
+            "peso": 95,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "poison",
+                        "url": "https://pokeapi.co/api/v2/type/4/"
+                    }
+                }
+            ]
+        }
+    ],
+    "rhyhorn": [
+        {
+            "numero_dex": 111,
+            "nome": "rhyhorn",
+            "altura": 10,
+            "peso": 1150,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "rock",
+                        "url": "https://pokeapi.co/api/v2/type/6/"
+                    }
+                }
+            ]
+        }
+    ],
+    "rhydon": [
+        {
+            "numero_dex": 112,
+            "nome": "rhydon",
+            "altura": 19,
+            "peso": 1200,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ground",
+                        "url": "https://pokeapi.co/api/v2/type/5/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "rock",
+                        "url": "https://pokeapi.co/api/v2/type/6/"
+                    }
+                }
+            ]
+        }
+    ],
+    "chansey": [
+        {
+            "numero_dex": 113,
+            "nome": "chansey",
+            "altura": 11,
+            "peso": 346,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                }
+            ]
+        }
+    ],
+    "tangela": [
+        {
+            "numero_dex": 114,
+            "nome": "tangela",
+            "altura": 10,
+            "peso": 350,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "grass",
+                        "url": "https://pokeapi.co/api/v2/type/12/"
+                    }
+                }
+            ]
+        }
+    ],
+    "kangaskhan": [
+        {
+            "numero_dex": 115,
+            "nome": "kangaskhan",
+            "altura": 22,
+            "peso": 800,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                }
+            ]
+        }
+    ],
+    "horsea": [
+        {
+            "numero_dex": 116,
+            "nome": "horsea",
+            "altura": 4,
+            "peso": 80,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "seadra": [
+        {
+            "numero_dex": 117,
+            "nome": "seadra",
+            "altura": 12,
+            "peso": 250,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "goldeen": [
+        {
+            "numero_dex": 118,
+            "nome": "goldeen",
+            "altura": 6,
+            "peso": 150,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "seaking": [
+        {
+            "numero_dex": 119,
+            "nome": "seaking",
+            "altura": 13,
+            "peso": 390,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "staryu": [
+        {
+            "numero_dex": 120,
+            "nome": "staryu",
+            "altura": 8,
+            "peso": 345,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "starmie": [
+        {
+            "numero_dex": 121,
+            "nome": "starmie",
+            "altura": 11,
+            "peso": 800,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ],
+    "mr-mime": [
+        {
+            "numero_dex": 122,
+            "nome": "mr-mime",
+            "altura": 13,
+            "peso": 545,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "fairy",
+                        "url": "https://pokeapi.co/api/v2/type/18/"
+                    }
+                }
+            ]
+        }
+    ],
+    "scyther": [
+        {
+            "numero_dex": 123,
+            "nome": "scyther",
+            "altura": 15,
+            "peso": 560,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "bug",
+                        "url": "https://pokeapi.co/api/v2/type/7/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "jynx": [
+        {
+            "numero_dex": 124,
+            "nome": "jynx",
+            "altura": 14,
+            "peso": 406,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ice",
+                        "url": "https://pokeapi.co/api/v2/type/15/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ],
+    "electabuzz": [
+        {
+            "numero_dex": 125,
+            "nome": "electabuzz",
+            "altura": 11,
+            "peso": 300,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "electric",
+                        "url": "https://pokeapi.co/api/v2/type/13/"
+                    }
+                }
+            ]
+        }
+    ],
+    "magmar": [
+        {
+            "numero_dex": 126,
+            "nome": "magmar",
+            "altura": 13,
+            "peso": 445,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fire",
+                        "url": "https://pokeapi.co/api/v2/type/10/"
+                    }
+                }
+            ]
+        }
+    ],
+    "pinsir": [
+        {
+            "numero_dex": 127,
+            "nome": "pinsir",
+            "altura": 15,
+            "peso": 550,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "bug",
+                        "url": "https://pokeapi.co/api/v2/type/7/"
+                    }
+                }
+            ]
+        }
+    ],
+    "tauros": [
+        {
+            "numero_dex": 128,
+            "nome": "tauros",
+            "altura": 14,
+            "peso": 884,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                }
+            ]
+        }
+    ],
+    "magikarp": [
+        {
+            "numero_dex": 129,
+            "nome": "magikarp",
+            "altura": 9,
+            "peso": 100,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "gyarados": [
+        {
+            "numero_dex": 130,
+            "nome": "gyarados",
+            "altura": 65,
+            "peso": 2350,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "lapras": [
+        {
+            "numero_dex": 131,
+            "nome": "lapras",
+            "altura": 25,
+            "peso": 2200,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "ice",
+                        "url": "https://pokeapi.co/api/v2/type/15/"
+                    }
+                }
+            ]
+        }
+    ],
+    "ditto": [
+        {
+            "numero_dex": 132,
+            "nome": "ditto",
+            "altura": 3,
+            "peso": 40,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                }
+            ]
+        }
+    ],
+    "eevee": [
+        {
+            "numero_dex": 133,
+            "nome": "eevee",
+            "altura": 3,
+            "peso": 65,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                }
+            ]
+        }
+    ],
+    "vaporeon": [
+        {
+            "numero_dex": 134,
+            "nome": "vaporeon",
+            "altura": 10,
+            "peso": 290,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "jolteon": [
+        {
+            "numero_dex": 135,
+            "nome": "jolteon",
+            "altura": 8,
+            "peso": 245,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "electric",
+                        "url": "https://pokeapi.co/api/v2/type/13/"
+                    }
+                }
+            ]
+        }
+    ],
+    "flareon": [
+        {
+            "numero_dex": 136,
+            "nome": "flareon",
+            "altura": 9,
+            "peso": 250,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fire",
+                        "url": "https://pokeapi.co/api/v2/type/10/"
+                    }
+                }
+            ]
+        }
+    ],
+    "porygon": [
+        {
+            "numero_dex": 137,
+            "nome": "porygon",
+            "altura": 8,
+            "peso": 365,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                }
+            ]
+        }
+    ],
+    "omanyte": [
+        {
+            "numero_dex": 138,
+            "nome": "omanyte",
+            "altura": 4,
+            "peso": 75,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "rock",
+                        "url": "https://pokeapi.co/api/v2/type/6/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "omastar": [
+        {
+            "numero_dex": 139,
+            "nome": "omastar",
+            "altura": 10,
+            "peso": 350,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "rock",
+                        "url": "https://pokeapi.co/api/v2/type/6/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "kabuto": [
+        {
+            "numero_dex": 140,
+            "nome": "kabuto",
+            "altura": 5,
+            "peso": 115,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "rock",
+                        "url": "https://pokeapi.co/api/v2/type/6/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "kabutops": [
+        {
+            "numero_dex": 141,
+            "nome": "kabutops",
+            "altura": 13,
+            "peso": 405,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "rock",
+                        "url": "https://pokeapi.co/api/v2/type/6/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "water",
+                        "url": "https://pokeapi.co/api/v2/type/11/"
+                    }
+                }
+            ]
+        }
+    ],
+    "aerodactyl": [
+        {
+            "numero_dex": 142,
+            "nome": "aerodactyl",
+            "altura": 18,
+            "peso": 590,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "rock",
+                        "url": "https://pokeapi.co/api/v2/type/6/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "snorlax": [
+        {
+            "numero_dex": 143,
+            "nome": "snorlax",
+            "altura": 21,
+            "peso": 4600,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "normal",
+                        "url": "https://pokeapi.co/api/v2/type/1/"
+                    }
+                }
+            ]
+        }
+    ],
+    "articuno": [
+        {
+            "numero_dex": 144,
+            "nome": "articuno",
+            "altura": 17,
+            "peso": 554,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "ice",
+                        "url": "https://pokeapi.co/api/v2/type/15/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "zapdos": [
+        {
+            "numero_dex": 145,
+            "nome": "zapdos",
+            "altura": 16,
+            "peso": 526,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "electric",
+                        "url": "https://pokeapi.co/api/v2/type/13/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "moltres": [
+        {
+            "numero_dex": 146,
+            "nome": "moltres",
+            "altura": 20,
+            "peso": 600,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "fire",
+                        "url": "https://pokeapi.co/api/v2/type/10/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "dratini": [
+        {
+            "numero_dex": 147,
+            "nome": "dratini",
+            "altura": 18,
+            "peso": 33,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "dragon",
+                        "url": "https://pokeapi.co/api/v2/type/16/"
+                    }
+                }
+            ]
+        }
+    ],
+    "dragonair": [
+        {
+            "numero_dex": 148,
+            "nome": "dragonair",
+            "altura": 40,
+            "peso": 165,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "dragon",
+                        "url": "https://pokeapi.co/api/v2/type/16/"
+                    }
+                }
+            ]
+        }
+    ],
+    "dragonite": [
+        {
+            "numero_dex": 149,
+            "nome": "dragonite",
+            "altura": 22,
+            "peso": 2100,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "dragon",
+                        "url": "https://pokeapi.co/api/v2/type/16/"
+                    }
+                },
+                {
+                    "slot": 2,
+                    "type": {
+                        "name": "flying",
+                        "url": "https://pokeapi.co/api/v2/type/3/"
+                    }
+                }
+            ]
+        }
+    ],
+    "mewtwo": [
+        {
+            "numero_dex": 150,
+            "nome": "mewtwo",
+            "altura": 20,
+            "peso": 1220,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ],
+    "mew": [
+        {
+            "numero_dex": 151,
+            "nome": "mew",
+            "altura": 4,
+            "peso": 40,
+            "tipagem": [
+                {
+                    "slot": 1,
+                    "type": {
+                        "name": "psychic",
+                        "url": "https://pokeapi.co/api/v2/type/14/"
+                    }
+                }
+            ]
+        }
+    ]
+}
