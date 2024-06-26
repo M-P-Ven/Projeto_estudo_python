@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 
 def Criar_pokedex():
     '''esta função faz repetidamente requisições a PokeAPI e pega dados especificos de cada entrada pra criar uma pokedex com menos informações
@@ -9,37 +10,42 @@ def Criar_pokedex():
         - um arquivo JSON com a nationaldex 
     
     '''
-    number = 1
-    number_limit = 3
-    url = 'https://pokeapi.co/api/v2/pokemon/'
-    response = requests.get(url)
-    pokedex = {}
-    if response.status_code == 200:
-        while number < number_limit:
-            urlpkmn = f'https://pokeapi.co/api/v2/pokemon/{number}/'
-            response_pkmn = requests.get(urlpkmn)
-            if response_pkmn.status_code == 200:
-                dados_json = response_pkmn.json()
-                id_pokemon = dados_json['name']
-                pokedex[id_pokemon] = []
-                pokedex[id_pokemon].append({
-                "numero_dex" : dados_json['id'],
-                "nome" : dados_json['name'],
-                "altura" : dados_json['height'],
-                "peso" : dados_json['weight'],
-                "tipagem" : dados_json['types']
-                })
-                number += 1
-                number_limit +=1
-            else:
-                number_limit = 0
-                 
-    else:
-        print(f'{response.status_code} - {response.text}')
-
     nome_do_arquivo = 'pokedex.json'
-    with open(nome_do_arquivo, 'w') as arquivo_dex:
-            json.dump(pokedex, arquivo_dex, indent=4)
+    arquivo_esitente = os.path.exists(nome_do_arquivo)
+    if arquivo_esitente == False:
+        number = 1
+        number_limit = 3
+        url = 'https://pokeapi.co/api/v2/pokemon/'
+        response = requests.get(url)
+        pokedex = {}
+        if response.status_code == 200:
+            while number < number_limit:
+                urlpkmn = f'https://pokeapi.co/api/v2/pokemon/{number}/'
+                response_pkmn = requests.get(urlpkmn)
+                if response_pkmn.status_code == 200:
+                    dados_json = response_pkmn.json()
+                    id_pokemon = dados_json['name']
+                    pokedex[id_pokemon] = []
+                    pokedex[id_pokemon].append({
+                    "numero_dex" : dados_json['id'],
+                    "nome" : dados_json['name'],
+                    "altura" : dados_json['height'],
+                    "peso" : dados_json['weight'],
+                    "tipagem" : dados_json['types']
+                    })
+                    number += 1
+                    number_limit +=1
+                else:
+                    number_limit = 0
+                        
+        else:
+            print(f'{response.status_code} - {response.text}')
+
+        with open(nome_do_arquivo, 'w') as arquivo_dex:
+                json.dump(pokedex, arquivo_dex, indent=4)  
+        return 'arquivo_criado'
+    else:
+         return 'arquivo_ja_existe'
 
 def dex_entry(number):
     '''esta função faz uma requisição a PokeAPI e pega dados especificos de um pokemon e retorna a entrada dele na dex
@@ -48,27 +54,32 @@ def dex_entry(number):
     OUTPUTS:
         -um arquivo JSON com a entrada do pokemon indicado pelo numero 
     '''
-    url = 'https://pokeapi.co/api/v2/pokemon/'
-    response = requests.get(url)
-    pokedex = {}
-    if response.status_code == 200:
-        urlpkmn = f'https://pokeapi.co/api/v2/pokemon/{number}/'
-        response = requests.get(urlpkmn)
-        dados_json = response.json()
-        id_pokemon = dados_json['name']
-        pokedex[id_pokemon] = []
-        pokedex[id_pokemon].append({
-        "numero_dex" : dados_json['id'],
-        "nome" : dados_json['name'],
-        "altura" : dados_json['height'],
-        "peso" : dados_json['weight'],
-        "tipagem" : dados_json['types']
-        })
-    else:
-        print(f'{response.status_code} - {response.text}')
     nome_do_arquivo = f'pokedex_entry_number_{number}.json'
-    with open(nome_do_arquivo, 'w') as arquivo_dex:
-            json.dump(pokedex, arquivo_dex, indent=4)
+    arquivo_esitente = os.path.exists(nome_do_arquivo)
+    if arquivo_esitente == False:
+        url = 'https://pokeapi.co/api/v2/pokemon/'
+        response = requests.get(url)
+        pokedex = {}
+        if response.status_code == 200:
+            urlpkmn = f'https://pokeapi.co/api/v2/pokemon/{number}/'
+            response = requests.get(urlpkmn)
+            dados_json = response.json()
+            id_pokemon = dados_json['name']
+            pokedex[id_pokemon] = []
+            pokedex[id_pokemon].append({
+            "numero_dex" : dados_json['id'],
+            "nome" : dados_json['name'],
+            "altura" : dados_json['height'],
+            "peso" : dados_json['weight'],
+            "tipagem" : dados_json['types']
+            })
+        else:
+            print(f'{response.status_code} - {response.text}')
+        with open(nome_do_arquivo, 'w') as arquivo_dex:
+                json.dump(pokedex, arquivo_dex, indent=4)
+        return 'arquivo_criado'
+    else:
+         return 'arquivo_ja_existe'
 
 def Criar_pokedex_number_filter(number, number_limit):
     '''esta função faz uma requisição a PokeAPI e pega dados especificos de um pokemon e retorna a entrada dele na dex
@@ -119,76 +130,121 @@ def Criar_pokedex_regiao(generation):
     gen = generation
     match gen:
          case '1':
-            number = 1
-            number_limit = 152
-            pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
             nome_do_arquivo = f'pokedex_Kanto_(gen{gen}).json'
-            with open(nome_do_arquivo, 'w') as arquivo_dex:
-                    json.dump(pokedex_gen, arquivo_dex, indent=4)
+            arquivo_esitente = os.path.exists(nome_do_arquivo)
+            if arquivo_esitente == False:
+                number = 1
+                number_limit = 152
+                pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
+                with open(nome_do_arquivo, 'w') as arquivo_dex:
+                        json.dump(pokedex_gen, arquivo_dex, indent=4)
+                return 'arquivo_criado'
+            else:
+                return 'arquivo_ja_existe'
 
          case '2':
-            number = 152
-            number_limit = 252
-            pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
             nome_do_arquivo = f'pokedex_Johto_(gen{gen}).json'
-            with open(nome_do_arquivo, 'w') as arquivo_dex:
-                    json.dump(pokedex_gen, arquivo_dex, indent=4)
+            arquivo_esitente = os.path.exists(nome_do_arquivo)
+            if arquivo_esitente == False:
+                number = 152
+                number_limit = 252
+                pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
+                with open(nome_do_arquivo, 'w') as arquivo_dex:
+                        json.dump(pokedex_gen, arquivo_dex, indent=4)
+                return 'arquivo_criado'
+            else:
+                return 'arquivo_ja_existe'
          
          case '3':
-            number = 252
-            number_limit = 387
-            pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
             nome_do_arquivo = f'pokedex_Hoenn_(gen{gen}).json'
-            with open(nome_do_arquivo, 'w') as arquivo_dex:
-                    json.dump(pokedex_gen, arquivo_dex, indent=4)
+            arquivo_esitente = os.path.exists(nome_do_arquivo)
+            if arquivo_esitente == False:
+                number = 252
+                number_limit = 387
+                pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
+                with open(nome_do_arquivo, 'w') as arquivo_dex:
+                        json.dump(pokedex_gen, arquivo_dex, indent=4)
+                return 'arquivo_criado'
+            else:
+                return 'arquivo_ja_existe'
          
          case '4':
-            number = 387
-            number_limit = 494
-            pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
             nome_do_arquivo = f'pokedex_Sinnoh_(gen{gen}).json'
-            with open(nome_do_arquivo, 'w') as arquivo_dex:
-                    json.dump(pokedex_gen, arquivo_dex, indent=4)
+            arquivo_esitente = os.path.exists(nome_do_arquivo)
+            if arquivo_esitente == False:
+                number = 387
+                number_limit = 494
+                pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
+                with open(nome_do_arquivo, 'w') as arquivo_dex:
+                        json.dump(pokedex_gen, arquivo_dex, indent=4)
+                return 'arquivo_criado'
+            else:
+                return 'arquivo_ja_existe'
          
          case '5':
-            number = 494
-            number_limit = 650
-            pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
             nome_do_arquivo = f'pokedex_Unova_(gen{gen}).json'
-            with open(nome_do_arquivo, 'w') as arquivo_dex:
-                    json.dump(pokedex_gen, arquivo_dex, indent=4)
+            arquivo_esitente = os.path.exists(nome_do_arquivo)
+            if arquivo_esitente == False:
+                number = 494
+                number_limit = 650
+                pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
+                with open(nome_do_arquivo, 'w') as arquivo_dex:
+                        json.dump(pokedex_gen, arquivo_dex, indent=4)
+                return 'arquivo_criado'
+            else:
+                return 'arquivo_ja_existe'
 
          case '6':
-            number = 650
-            number_limit = 722
-            pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
             nome_do_arquivo = f'pokedex_Kalos_(gen{gen}).json'
-            with open(nome_do_arquivo, 'w') as arquivo_dex:
-                    json.dump(pokedex_gen, arquivo_dex, indent=4)
+            arquivo_esitente = os.path.exists(nome_do_arquivo)
+            if arquivo_esitente == False:
+                number = 650
+                number_limit = 722
+                pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
+                with open(nome_do_arquivo, 'w') as arquivo_dex:
+                        json.dump(pokedex_gen, arquivo_dex, indent=4)
+                return 'arquivo_criado'
+            else:
+                return 'arquivo_ja_existe'
          
          case '7':
-            number = 722
-            number_limit = 810
-            pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
             nome_do_arquivo = f'pokedex_Alola_(gen{gen}).json'
-            with open(nome_do_arquivo, 'w') as arquivo_dex:
-                    json.dump(pokedex_gen, arquivo_dex, indent=4)
+            arquivo_esitente = os.path.exists(nome_do_arquivo)
+            if arquivo_esitente == False:
+                number = 722
+                number_limit = 810
+                pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
+                with open(nome_do_arquivo, 'w') as arquivo_dex:
+                        json.dump(pokedex_gen, arquivo_dex, indent=4)
+                return 'arquivo_criado'
+            else:
+                return 'arquivo_ja_existe'
          
          case '8':
-            number = 810
-            number_limit = 906
-            pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
             nome_do_arquivo = f'pokedex_Galar_(gen{gen}).json'
-            with open(nome_do_arquivo, 'w') as arquivo_dex:
-                    json.dump(pokedex_gen, arquivo_dex, indent=4)
+            arquivo_esitente = os.path.exists(nome_do_arquivo)
+            if arquivo_esitente == False:
+                number = 810
+                number_limit = 906
+                pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
+                with open(nome_do_arquivo, 'w') as arquivo_dex:
+                        json.dump(pokedex_gen, arquivo_dex, indent=4)
+                return 'arquivo_criado'
+            else:
+                return 'arquivo_ja_existe'
          
          case '9':
-            number = 906
-            number_limit = 1026
-            pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
             nome_do_arquivo = f'pokedex_Paldea_(gen{gen}).json'
-            with open(nome_do_arquivo, 'w') as arquivo_dex:
-                    json.dump(pokedex_gen, arquivo_dex, indent=4)
+            arquivo_esitente = os.path.exists(nome_do_arquivo)
+            if arquivo_esitente == False:
+                number = 906
+                number_limit = 1026
+                pokedex_gen = Criar_pokedex_number_filter(number, number_limit)
+                with open(nome_do_arquivo, 'w') as arquivo_dex:
+                        json.dump(pokedex_gen, arquivo_dex, indent=4)
+                return 'arquivo_criado'
+            else:
+                return 'arquivo_ja_existe'
          
          case _:
             print('numero invalido')

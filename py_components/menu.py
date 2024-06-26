@@ -25,20 +25,40 @@ def selecao():
     escolha = input()
     match escolha:
         case '1':
-            Criar_pokedex()
-            arquivo_criado()
+            teste = Criar_pokedex()
+            match teste:
+                case 'arquivo_criado':
+                    arquivo_criado()
+                case 'arquivo_ja_existe':
+                    txt_decoration('arquivo ja existe')
+                case _:
+                    print('algo deu errado')
             menu()
 
         case '2':
+            os.system('cls')
             gen = input('opções:\n1:Kanto(1-151)\n2:Jotho(152-251)\n3:Hoenn(252-386)\n4:Sinnoh(387-493)\n5:Unova(494-649)\n6:Kalos(650-721)\n7:Alola(722-809)\n8:Galar(810-905)\n9:Paldea(906-1025)\n') 
-            Criar_pokedex_regiao(gen)
-            arquivo_criado()
+            teste = Criar_pokedex_regiao(gen)
+            match teste:
+                case 'arquivo_criado':
+                    arquivo_criado()
+                case 'arquivo_ja_existe':
+                    txt_decoration('arquivo ja existe')
+                case _:
+                    print('algo deu errado')
             menu()
 
         case '3':
+            os.system('cls')
             pokemon = input('insira o numero do pokemon que deseja: ')
-            dex_entry(pokemon)
-            arquivo_criado()
+            teste = dex_entry(pokemon)
+            match teste:
+                case 'arquivo_criado':
+                    arquivo_criado()
+                case 'arquivo_ja_existe':
+                    txt_decoration('arquivo ja existe')
+                case _:
+                    print('algo deu errado')
             menu()
 
         case '4':

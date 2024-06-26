@@ -1,5 +1,4 @@
 from py_components.menu import *
-from py_components.app import *
 
 def main():
     menu()
